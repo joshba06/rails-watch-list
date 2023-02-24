@@ -1,2 +1,33 @@
 postgres does not know where to find the server configuration file.
 You must specify the --config-file or -D invocation option or set the PGDATA environment variable.
+2023-02-24 11:12:19.600 GMT [9372] LOG:  starting PostgreSQL 14.7 (Homebrew) on x86_64-apple-darwin22.1.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.202), 64-bit
+2023-02-24 11:12:19.602 GMT [9372] LOG:  listening on IPv6 address "::1", port 5432
+2023-02-24 11:12:19.602 GMT [9372] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-02-24 11:12:19.603 GMT [9372] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-02-24 11:12:19.607 GMT [9373] LOG:  database system was shut down at 2023-02-24 11:12:19 GMT
+2023-02-24 11:12:19.615 GMT [9372] LOG:  database system is ready to accept connections
+2023-02-24 11:12:54.710 GMT [9467] FATAL:  database "rails_watch_list_development" does not exist
+2023-02-24 11:47:41.896 GMT [12785] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2023-02-24 11:47:41.896 GMT [12785] DETAIL:  Key (id)=(17) is still referenced from table "bookmarks".
+2023-02-24 11:47:41.896 GMT [12785] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2023-02-24 11:48:29.665 GMT [13019] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2023-02-24 11:48:29.665 GMT [13019] DETAIL:  Key (id)=(34) is still referenced from table "bookmarks".
+2023-02-24 11:48:29.665 GMT [13019] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2023-02-24 11:53:04.295 GMT [13533] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2023-02-24 11:53:04.295 GMT [13533] DETAIL:  Key (id)=(51) is still referenced from table "bookmarks".
+2023-02-24 11:53:04.295 GMT [13533] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2023-02-24 11:57:39.836 GMT [13909] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2023-02-24 11:57:39.836 GMT [13909] DETAIL:  Key (id)=(68) is still referenced from table "bookmarks".
+2023-02-24 11:57:39.836 GMT [13909] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2023-02-24 13:49:31.417 GMT [19224] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2023-02-24 13:49:31.417 GMT [19224] DETAIL:  Key (id)=(85) is still referenced from table "bookmarks".
+2023-02-24 13:49:31.417 GMT [19224] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2023-02-24 14:04:26.906 GMT [20778] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2023-02-24 14:04:26.906 GMT [20778] DETAIL:  Key (id)=(102) is still referenced from table "bookmarks".
+2023-02-24 14:04:26.906 GMT [20778] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2023-02-24 14:08:20.738 GMT [21331] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2023-02-24 14:08:20.738 GMT [21331] DETAIL:  Key (id)=(119) is still referenced from table "bookmarks".
+2023-02-24 14:08:20.738 GMT [21331] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
+2023-02-24 14:11:02.436 GMT [21675] ERROR:  update or delete on table "movies" violates foreign key constraint "fk_rails_630f44bd39" on table "bookmarks"
+2023-02-24 14:11:02.436 GMT [21675] DETAIL:  Key (id)=(136) is still referenced from table "bookmarks".
+2023-02-24 14:11:02.436 GMT [21675] STATEMENT:  DELETE FROM "movies" WHERE "movies"."id" = $1
